@@ -1,0 +1,40 @@
+{
+  "cli": {
+    "appVersionSource": "local",
+    "version": ">= 16.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "image": "latest",
+        "node": "20.11.1"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://ctvkeqwytarocihhctvk.backend.onspace.ai",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "…"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "ios": {
+        "image": "latest",
+        "node": "20.11.1"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://ctvkeqwytarocihhctvk.backend.onspace.ai",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "…"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "dancewithlorenzo@gmail.com",
+        "ascAppId": "6761447408",
+        "appleTeamId": "59CF3495SR"
+      }
+    }
+  }
+}

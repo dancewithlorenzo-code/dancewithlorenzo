@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特定商取引法に基づく表記 | Dance with Lorenzo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #e91e63;
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #e91e63;
+            padding-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e91e63;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            border-left: 4px solid #e91e63;
+        }
+
+        .content {
+            padding-left: 20px;
+            font-size: 15px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #555;
+            display: inline-block;
+            min-width: 150px;
+        }
+
+        .value {
+            color: #333;
+        }
+
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .price-table th,
+        .price-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .price-table th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #e91e63;
+        }
+
+        .price-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .highlight {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .section-title {
+                font-size: 16px;
+            }
+
+            .label {
+                min-width: auto;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .price-table {
+                font-size: 13px;
+            }
+
+            .price-table th,
+            .price-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>特定商取引法に基づく表記</h1>
+        <p class="subtitle">Specified Commercial Transaction Act Disclosure</p>
+
+        <!-- 事業者情報 / Business Operator Information -->
+        <div class="section">
+            <div class="section-title">事業者情報</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">事業者名:</span>
+                    <span class="value">Dance with Lorenzo</span>
+                </div>
+                <div class="item">
+                    <span class="label">代表者名:</span>
+                    <span class="value">[要記入: あなたの氏名 例: Lorenzo [姓]]</span>
+                </div>
+                <div class="item">
+                    <span class="label">所在地:</span>
+                    <span class="value">[要記入: あなたの事業所住所 例: 〒123-4567 東京都○○区○○町1-2-3]</span>
+                </div>
+                <div class="item">
+                    <span class="label">電話番号:</span>
+                    <span class="value">[要記入: あなたの電話番号 例: 03-1234-5678]</span>
+                </div>
+                <div class="item">
+                    <span class="label">メールアドレス:</span>
+                    <span class="value">dancewithlorenzo@gmail.com</span>
+                </div>
+                <div class="item">
+                    <span class="label">運営統括責任者:</span>
+                    <span class="value">[要記入: あなたの氏名]</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight">
+            ⚠️ <strong>重要:</strong> [要記入] と表示されている箇所は、実際の情報に置き換えてください。
+        </div>
+
+        <!-- 販売価格 / Pricing -->
+        <div class="section">
+            <div class="section-title">販売価格</div>
+            <div class="content">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>商品・サービス</th>
+                            <th>価格</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ワークショップクラス</strong></td>
+                            <td>1クラス: 1トークン または 2,000円</td>
+                        </tr>
+                        <tr>
+                            <td>トークンパッケージ (10トークン)</td>
+                            <td>15,000円</td>
+                        </tr>
+                        <tr>
+                            <td>トークンパッケージ (20トークン)</td>
+                            <td>25,000円</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ワークショップバンドル</strong></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>5クラスパッケージ (5クレジット)</td>
+                            <td>9,000円 (10%割引)</td>
+                        </tr>
+                        <tr>
+                            <td>10クラスパッケージ (10クレジット)</td>
+                            <td>16,000円 (20%割引)</td>
+                        </tr>
+                        <tr>
+                            <td>20クラスパッケージ (20クレジット)</td>
+                            <td>28,000円 (30%割引)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>プライベートレッスン</strong></td>
+                            <td>1名: 10,000円 / 2名: 15,000円 / 3名: 18,000円</td>
+                        </tr>
+                        <tr>
+                            <td><strong>音楽販売</strong></td>
+                            <td>楽曲により異なります (詳細はアプリ内表示)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ギフトカード</strong></td>
+                            <td>購入時に選択したバンドル金額に準じます</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="margin-top: 10px; color: #666; font-size: 14px;">※ 上記価格は税込価格です。</p>
+                <p style="color: #666; font-size: 14px;">※ シーズンプロモーションにより割引が適用される場合があります。</p>
+            </div>
+        </div>
+
+        <!-- 支払方法 / Payment Methods -->
+        <div class="section">
+            <div class="section-title">支払方法</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">オンライン決済:</span>
+                    <span class="value">クレジットカード (Stripe経由: Visa, Mastercard, American Express, JCB)</span>
+                </div>
+                <div class="item">
+                    <span class="label">オフライン決済:</span>
+                    <span class="value">現金払い (クラス参加時に直接お支払い)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 支払時期 / Payment Timing -->
+        <div class="section">
+            <div class="section-title">支払時期</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">トークン・バンドル購入:</span>
+                    <span class="value">注文確定時に即時決済</span>
+                </div>
+                <div class="item">
+                    <span class="label">プライベートレッスン:</span>
+                    <span class="value">管理者承認後、決済リンク送信時に決済</span>
+                </div>
+                <div class="item">
+                    <span class="label">ワークショップクラス:</span>
+                    <span class="value">予約確定時に決済 (トークン使用の場合は即時消費)</span>
+                </div>
+                <div class="item">
+                    <span class="label">音楽購入:</span>
+                    <span class="value">購入確定時に即時決済</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- サービス提供時期 / Service Provision Timing -->
+        <div class="section">
+            <div class="section-title">サービス提供時期</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">トークン・バンドル:</span>
+                    <span class="value">決済完了後、即時アカウントに反映</span>
+                </div>
+                <div class="item">
+                    <span class="label">ワークショップクラス:</span>
+                    <span class="value">予約したクラスの開催日時に提供</span>
+                </div>
+                <div class="item">
+                    <span class="label">プライベートレッスン:</span>
+                    <span class="value">予約・承認された日時に提供</span>
+                </div>
+                <div class="item">
+                    <span class="label">音楽ダウンロード:</span>
+                    <span class="value">決済完了後、メールにてダウンロードリンク送信</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 返品・キャンセルポリシー / Return/Cancellation Policy -->
+        <div class="section">
+            <div class="section-title">返品・キャンセルポリシー</div>
+            <div class="content">
+                <div class="item">
+                    <strong>クラス予約のキャンセル:</strong>
+                    <ul style="margin-left: 20px; margin-top: 5px;">
+                        <li>クラス開始24時間前まで: キャンセル可能 (使用トークン返還)</li>
+                        <li>クラス開始24時間以内: キャンセル不可 (トークン返還なし)</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <strong>トークン・バンドル購入:</strong>
+                    <ul style="margin-left: 20px; margin-top: 5px;">
+                        <li>デジタル商品のため、購入後の返金は原則不可</li>
+                        <li>システムエラーによる重複決済の場合: 全額返金対応</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <strong>プライベートレッスン:</strong>
+                    <ul style="margin-left: 20px; margin-top: 5px;">
+                        <li>承認前: キャンセル可能 (返金対応)</li>
+                        <li>承認後かつレッスン48時間前まで: キャンセル可能 (返金対応)</li>
+                        <li>レッスン48時間以内: キャンセル不可 (返金不可)</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <strong>音楽購入:</strong>
+                    <ul style="margin-left: 20px; margin-top: 5px;">
+                        <li>デジタルコンテンツのため、購入後の返金は原則不可</li>
+                        <li>ダウンロードリンクが正常に機能しない場合: 再送または返金対応</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <strong>ギフトカード:</strong>
+                    <ul style="margin-left: 20px; margin-top: 5px;">
+                        <li>未使用・有効期限内の場合: 購入者からの申請により返金可能</li>
+                        <li>既に引き換え済みの場合: 返金不可</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- その他費用 / Additional Fees -->
+        <div class="section">
+            <div class="section-title">その他費用</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">配送料:</span>
+                    <span class="value">当サービスはデジタルサービスのため、配送料は発生しません</span>
+                </div>
+                <div class="item">
+                    <span class="label">通信料:</span>
+                    <span class="value">アプリ利用時の通信料はお客様負担となります</span>
+                </div>
+                <div class="item">
+                    <span class="label">決済手数料:</span>
+                    <span class="value">上記価格に含まれています (お客様追加負担なし)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 引渡時期 / Delivery Timing -->
+        <div class="section">
+            <div class="section-title">引渡時期</div>
+            <div class="content">
+                <div class="item">
+                    すべてのデジタルサービス (トークン、クラス予約、音楽ダウンロード) は決済完了後、即時または予約日時に提供されます。
+                </div>
+            </div>
+        </div>
+
+        <!-- 販売数量 / Sales Quantity -->
+        <div class="section">
+            <div class="section-title">販売数量</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">トークン・バンドル:</span>
+                    <span class="value">制限なし</span>
+                </div>
+                <div class="item">
+                    <span class="label">クラス予約:</span>
+                    <span class="value">各クラスの定員まで (通常10-15名)</span>
+                </div>
+                <div class="item">
+                    <span class="label">プライベートレッスン:</span>
+                    <span class="value">日時により変動 (管理者承認制)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 申込の有効期限 / Validity Period -->
+        <div class="section">
+            <div class="section-title">申込の有効期限</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">クラス予約:</span>
+                    <span class="value">クラス開始時刻まで有効</span>
+                </div>
+                <div class="item">
+                    <span class="label">トークン:</span>
+                    <span class="value">購入日から1年間有効</span>
+                </div>
+                <div class="item">
+                    <span class="label">ワークショップクレジット:</span>
+                    <span class="value">購入日から1年間有効</span>
+                </div>
+                <div class="item">
+                    <span class="label">ギフトカード:</span>
+                    <span class="value">購入日から1年間有効</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 不良品対応 / Defective Product Policy -->
+        <div class="section">
+            <div class="section-title">不良品対応</div>
+            <div class="content">
+                <div class="item">
+                    デジタルサービスのため物理的な不良品は発生しませんが、以下の場合は対応いたします:
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>システムエラーによりトークンが正常に付与されなかった場合</li>
+                        <li>音楽ダウンロードリンクが機能しない場合</li>
+                        <li>クラス予約が正常に反映されなかった場合</li>
+                    </ul>
+                    <p style="margin-top: 10px;">上記の場合、dancewithlorenzo@gmail.com までご連絡ください。確認後、48時間以内に対応いたします。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 表現及び商品に関する注意書き / Notes -->
+        <div class="section">
+            <div class="section-title">表現及び商品に関する注意書き</div>
+            <div class="content">
+                <div class="item">
+                    <ul style="margin-left: 20px;">
+                        <li>クラスの内容は、参加者のレベルや人数により変更される場合があります</li>
+                        <li>講師の都合により、クラスが中止または変更される場合があります (事前通知あり)</li>
+                        <li>悪天候やその他の不可抗力によりクラスが中止された場合、使用トークンは返還されます</li>
+                        <li>アプリの利用には、スマートフォンとインターネット接続が必要です</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ソフトウェア動作環境 / Software Requirements -->
+        <div class="section">
+            <div class="section-title">ソフトウェア動作環境</div>
+            <div class="content">
+                <div class="item">
+                    <span class="label">対応OS:</span>
+                    <span class="value">iOS 13.0以上、Android 8.0以上</span>
+                </div>
+                <div class="item">
+                    <span class="label">必要環境:</span>
+                    <span class="value">インターネット接続環境、カメラ機能 (QRコードスキャン用)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- お問い合わせ / Contact -->
+        <div class="section">
+            <div class="section-title">お問い合わせ</div>
+            <div class="content">
+                <div class="item">
+                    サービスに関するご質問やご不明点がございましたら、下記までお気軽にお問い合わせください。
+                </div>
+                <div class="item" style="margin-top: 15px;">
+                    <span class="label">メール:</span>
+                    <span class="value">dancewithlorenzo@gmail.com</span>
+                </div>
+                <div class="item">
+                    <span class="label">電話:</span>
+                    <span class="value">[要記入: あなたの電話番号]</span>
+                </div>
+                <div class="item">
+                    <span class="label">受付時間:</span>
+                    <span class="value">[要記入: 例: 平日 10:00-18:00]</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>最終更新日: 2026年3月6日</p>
+            <p style="margin-top: 10px;">© 2026 Dance with Lorenzo. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

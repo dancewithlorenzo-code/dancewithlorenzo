@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Dance with Lorenzo",
+    "slug": "dance-with-lorenzo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon-1024.png",
+    "scheme": "dancewithlorenzo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-black.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lorenzo.dancewithlorenzo",
+      "buildNumber": "6",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan QR codes for class check-in.",
+        "NSPhotoLibraryUsageDescription": "This app allows you to upload photos for class memories and social sharing.",
+        "NSContactsUsageDescription": "This app may access your contacts to help you share class information with friends.",
+        "NSCalendarsUsageDescription": "This app may access your calendar to add class bookings and reminders."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "aps-environment": "production"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon-1024.png",
+        "backgroundColor": "#0F4C81"
+      },
+      "package": "com.lorenzo.dancewithlorenzo",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/app-icon-1024.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-black.jpg",
+          "imageWidth": 400,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ],
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/app-icon-1024.png",
+          "color": "#9C27B0",
+          "sounds": [],
+          "iosDisplayInForeground": true
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
