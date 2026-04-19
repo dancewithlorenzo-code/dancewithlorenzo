@@ -16,7 +16,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.lorenzo.dancewithlorenzo",
-      "buildNumber": "6",
+      "buildNumber": "7",
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to scan QR codes for class check-in.",
         "NSPhotoLibraryUsageDescription": "This app allows you to upload photos for class memories and social sharing.",
@@ -73,6 +73,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d0051e06-c892-48d1-8ce9-64f00db36490"
+      }
     }
   }
 }
